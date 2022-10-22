@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Pokedex
+comment0.text=\r\n\ A\ class\ to\ represent\ a\ Pokedex\r\n\r\n\ @author\ Pablo\ Crisostomo\ Suarez\r\n\ @version\ 2022\r\n
+comment1.params=
+comment1.target=Pokedex()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Pokedex.\r\n\ Fills\ up\ the\ dex\ HashMap\ with\ 32\ unique\ Pokemon\ object,\ each\ with\ a\ 4\ element\ Move\ array.\r\n
+comment2.params=
+comment2.target=java.util.HashMap\ getDex()
+comment2.text=\r\n\ Returns\ dex\ of\ Pokedex\r\n
+comment3.params=e
+comment3.target=Pokemon\ getEntry(java.lang.Integer)
+comment3.text=\r\n\ Returns\ a\ Pokemon\ value\ at\ the\ given\ key\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Returns\ a\ String\ representation\ of\ Pokedex\r\n
+comment5.params=key
+comment5.target=void\ removeFromDex(java.lang.Integer)
+numComments=6

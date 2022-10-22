@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=HumanPlayer
+comment0.text=\r\n\ A\ class\ to\ represent\ a\ Human\ Player\r\n\r\n\ @author\ Pablo\ Crisostomo\ Suarez\r\n\ @version\ 2022\r\n
+comment1.params=t
+comment1.target=HumanPlayer(java.util.ArrayList)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ HumanPlayer\r\n
+comment2.params=
+comment2.target=Move\ pickMove()
+comment3.params=o
+comment3.target=Move\ pickMove(java.util.ArrayList)
+comment3.text=\r\n\ Uses\ ArrayList\ of\ Pokemon\ objects\ representing\ the\ opposing\ team\ \r\n\ and\ prompts\ the\ user\ either\ to\ pick\ a\ valid\ move\ or\ to\ switch\ out\ into\ a\ different\ Pokemon.\r\n\ @param\ \ o\ \ an\ ArrayList\ of\ Pokemon\ objects\ representing\ the\ opposing\ team\r\n\ @return\ \ \ \ a\ Move\ object\ either\ representing\ an\ attack\ by\ the\ Human\ player\ or\ a\ switch\r\n\ into\ a\ different\ Pokemon\r\n
+comment4.params=start
+comment4.target=void\ switchPokemon(boolean)
+comment4.text=\r\n\ Prompts\ user\ to\ pick\ a\ Pokemon\ from\ the\ team\ to\ switch\ into\r\n\ Once\ a\ valid\ input\ has\ been\ received,\ the\ selected\ Pokemon\ is\ moved\r\n\ to\ the\ 0\ index\ of\ the\ team\ ArrayList.\r\n\ If\ at\ the\ start\ of\ the\ game,\ all\ Pokemon\ can\ be\ selected.\r\n\ Otherwise,\ the\ first\ Pokemon\ can't\ be\ chosen\ as\ when\ switching\ out\ mid-game,\ \r\n\ you\ can't\ switch\ out\ into\ the\ same\ Pokemon\ that\ is\ currently\ active\r\n\ @param\ start\ a\ boolean\ representing\ whether\ it\ is\ the\ start\ of\ the\ game\ or\ not\r\n
+numComments=5

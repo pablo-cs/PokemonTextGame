@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=BattleTest
+comment1.params=
+comment1.target=void\ randomTeamHasSixElements()
+comment10.params=
+comment10.target=void\ typeEffectivenessModifierNoEffect()
+comment11.params=
+comment11.target=void\ typeEffectivenessModifierNeutralEffect()
+comment12.params=
+comment12.target=void\ typeEffectivenessModifierSuperEffective()
+comment2.params=
+comment2.target=void\ randomTeamRemovesFromDex()
+comment3.params=
+comment3.target=void\ damageCalcNonCritMinRange()
+comment4.params=
+comment4.target=void\ damageCalcCritMinRange()
+comment5.params=
+comment5.target=void\ damageCalcNonCritMidRange()
+comment6.params=
+comment6.target=void\ damageCalcCritMidRange()
+comment7.params=
+comment7.target=void\ damageCalcNonCritMaxRange()
+comment8.params=
+comment8.target=void\ damageCalcCritMaxRange()
+comment9.params=
+comment9.target=void\ typeEffectivenessModifierNotEffective()
+numComments=13

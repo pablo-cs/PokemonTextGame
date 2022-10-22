@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=APlayer
+comment0.text=\r\n\ An\ abstract\ class\ used\ to\ create\ a\ generic\ player\ object\r\n\r\n\ @author\ Pablo\ Crisostomo\ Suarez\r\n\ @version\ 2022\r\n
+comment1.params=team
+comment1.target=APlayer(java.util.ArrayList)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ APlayer\r\n
+comment2.params=
+comment2.target=java.util.ArrayList\ getTeam()
+comment2.text=\r\n\ Returns\ the\ team\ instance\ variable\r\n
+comment3.params=
+comment3.target=void\ printTeam()
+comment3.text=\r\n\ Prints\ out\ every\ element\ in\ team\ with\ their\ hp\r\n
+comment4.params=
+comment4.target=boolean\ teamIsActive()
+comment4.text=\r\n\ Returns\ whether\ team\ still\ has\ active\ Pokemon\r\n
+comment5.params=
+comment5.target=Move\ pickMove()
+comment6.params=start
+comment6.target=void\ switchPokemon(boolean)
+numComments=7

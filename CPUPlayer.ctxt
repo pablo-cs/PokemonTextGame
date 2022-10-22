@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=CPUPlayer
+comment0.text=\r\n\ A\ class\ to\ represent\ a\ CPU\ Player\r\n\r\n\ @author\ Pablo\ Crisostomo\ Suarez\r\n\ @version\ 2022\r\n
+comment1.params=t
+comment1.target=CPUPlayer(java.util.ArrayList)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ CPUPlayer\r\n
+comment2.params=
+comment2.target=Move\ pickMove()
+comment2.text=\r\n\ Based\ on\ random\ number\ generator,\ either\ returns\ one\ of\ the\ active\ Pokemon's\ valid\ moves\r\n\ or\ switches\ out\ into\ another\ Pokemon.\r\n\r\n\ @return\ \ \ \ a\ Move\ object\ representing\ the\ CPU's\ selection\r\n
+comment3.params=
+comment3.target=boolean\ validSwitch()
+comment3.text=\r\n\ Returns\ whether\ there\ is\ a\ valid\ Pokemon\ to\ switch\ into.\r\n\ Method\ returns\ true\ if\ there\ is\ any\ Pokemon\ which\ is\ active\ and\ not\r\n\ at\ index\ 0,\ false\ otherwise.\r\n\ @return\ a\ boolean\ representing\ whether\ there\ is\ a\ valid\ Pokemon\ to\ switch\ into\r\n
+comment4.params=start
+comment4.target=void\ switchPokemon(boolean)
+comment4.text=\r\n\ Randomly\ selects\ an\ index\ of\ the\ ArrayList\ team\ with\ an\ active\ Pokemon,\ and\ \r\n\ the\ selected\ Pokemon\ is\ moved\ to\ the\ 0\ index\ of\ the\ team\ ArrayList.\r\n\ If\ at\ the\ start\ of\ the\ game,\ all\ Pokemon\ can\ be\ selected.\r\n\ Otherwise,\ the\ first\ Pokemon\ can't\ be\ chosen\ as\ when\ switching\ out\ mid-game,\ \r\n\ you\ can't\ switch\ out\ into\ the\ same\ Pokemon\ that\ is\ currently\ active.\r\n\ @param\ start\ a\ boolean\ representing\ whether\ it\ is\ the\ start\ of\ the\ game\ or\ not\r\n
+numComments=5
